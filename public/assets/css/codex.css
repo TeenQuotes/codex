@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5 {
 	border-radius: 0 0 5px 5px;
 }
 
+.toc h1, .toc h2, .toc h3, .toc h4, .toc h5 {
+	color: #f27e3f;
+}
+
 .toc ul li {
 	color: #ddd;
 	border-bottom: 1px solid #555;
@@ -59,7 +63,6 @@ h1, h2, h3, h4, h5 {
 
 .toc ul li ul li code {
 	background: #2f3030;
-	color: #ccc;
 }
 
 .toc ul li ul li a {
