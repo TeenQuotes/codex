@@ -1,4 +1,4 @@
-codex
+Codex
 =====
 
-Display the API documentation
+Display the API documentation.
