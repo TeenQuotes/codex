@@ -5,4 +5,4 @@ mkdir manual
 mv api-documentation manual/1.0
 cd manual/1.0
 mv README.md introduction.md
-sed -i '' 's#https://github.com/TeenQuotes/api-documentation/blob/master##g' introduction.md
+sed -i 's#https://github.com/TeenQuotes/api-documentation/blob/master##g' introduction.md
