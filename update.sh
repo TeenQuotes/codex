@@ -12,4 +12,5 @@ mv README.md introduction.md
 sed -i 's#https://github.com/TeenQuotes/api-documentation/blob/master##g' introduction.md
 
 # Clear cache
+cd ../../../../
 php artisan cache:clear
