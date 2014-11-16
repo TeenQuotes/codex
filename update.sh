@@ -1,3 +1,6 @@
+# Update code
+git pull
+
 # Update dependencies
 composer update
 
