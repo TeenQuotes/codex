@@ -11,8 +11,10 @@ git clone https://github.com/TeenQuotes/api-documentation
 mkdir api
 mv api-documentation api/1.0
 cd api/1.0
+# The first file is introduction.md for Codex
 mv README.md introduction.md
-sed -i 's#https://github.com/TeenQuotes/api-documentation/blob/master##g' introduction.md
+# Replace URLs
+find ./ -type f -exec sed -i '' 's#https://github.com/TeenQuotes/api-documentation/blob/master##g' *.md {} \;
 
 # Clear cache
 cd ../../../../
