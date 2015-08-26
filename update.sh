@@ -33,3 +33,8 @@ php artisan cache:clear
 
 rm -rf tmp-api
 rm -rf tmp-deep-links
+# Clear temporary files from sed
+rm -f sed*
+
+# Fix permissions
+chown -R www-data:www-data /var/www/codex
